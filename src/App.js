@@ -1,10 +1,10 @@
 import "./App.css";
-import Welcome from "./Lessons/StateLesson";
+import SetState from "./Lessons/SetState";
 
 function App() {
   return (
     <div className="App">
-      <Welcome />
+      <SetState />
     </div>
   );
 }
