@@ -1,10 +1,10 @@
 import "./App.css";
-import SetState from "./Lessons/SetState";
+import Destructuring from "./Lessons/Destructuring";
 
 function App() {
   return (
     <div className="App">
-      <SetState />
+      <Destructuring name="Lilian" heroName="Lily" />
     </div>
   );
 }
