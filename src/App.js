@@ -1,10 +1,9 @@
 import "./App.css";
-import Destructuring from "./Lessons/Destructuring";
-
+import DestructuringInClass from "./Lessons/DestructuringInClass";
 function App() {
   return (
     <div className="App">
-      <Destructuring name="Lilian" heroName="Lily" />
+      <DestructuringInClass name="Lilian" heroName="Lily" />
     </div>
   );
 }
