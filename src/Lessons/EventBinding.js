@@ -8,17 +8,17 @@ class EventBinding extends Component {
     };
   }
 
-  handleClick = () => {
+  handleClick() {
     this.setState({
-      message: "Goodbye",
+      message: "Goodbye!",
     });
-  };
+  }
 
   render() {
     return (
       <div>
         <h3>{this.state.message}</h3>
-        <button onClick={this.handleClick}>Click!</button>
+        <button onClick={this.handleClick.bind(this)}>Click!</button>
       </div>
     );
   }
