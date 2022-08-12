@@ -1,10 +1,10 @@
 import "./App.css";
-import EventHandling from "./Lessons/EventHandling";
+import EventBinding from "./Lessons/EventBinding";
 
 function App() {
   return (
     <div className="App">
-      <EventHandling name="lilian" />
+      <EventBinding name="lilian" />
     </div>
   );
 }
