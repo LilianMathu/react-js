@@ -1,9 +1,10 @@
 import "./App.css";
-import DestructuringInClass from "./Lessons/DestructuringInClass";
+import EventHandling from "./Lessons/EventHandling";
+
 function App() {
   return (
     <div className="App">
-      <DestructuringInClass name="Lilian" heroName="Lily" />
+      <EventHandling name="lilian" />
     </div>
   );
 }
