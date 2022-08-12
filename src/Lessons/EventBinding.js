@@ -4,9 +4,8 @@ class EventBinding extends Component {
   constructor() {
     super();
     this.state = {
-      message: "Welcome visitors",
+      message: "Welcome visitor",
     };
-    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
@@ -19,7 +18,7 @@ class EventBinding extends Component {
     return (
       <div>
         <h3>{this.state.message}</h3>
-        <button onClick={this.handleClick}>Click!</button>
+        <button onClick={() => this.handleClick()}>Click!</button>
       </div>
     );
   }
