@@ -1,10 +1,10 @@
 import "./App.css";
-import Parent from "./Lessons/Parent";
+import ConditionalRendering from "./Lessons/ConditionalRendering";
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <ConditionalRendering />
     </div>
   );
 }
