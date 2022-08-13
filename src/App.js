@@ -1,10 +1,10 @@
 import "./App.css";
-import EventBinding from "./Lessons/EventBinding";
+import Parent from "./Lessons/Parent";
 
 function App() {
   return (
     <div className="App">
-      <EventBinding name="lilian" />
+      <Parent />
     </div>
   );
 }
