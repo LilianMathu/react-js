@@ -10,8 +10,8 @@ class Parent extends Component {
     };
   }
 
-  greetParent = () => {
-    alert(`${this.state.message}`);
+  greetParent = (childName) => {
+    alert(`${this.state.message} from ${"Lilian"}`);
   };
 
   render() {

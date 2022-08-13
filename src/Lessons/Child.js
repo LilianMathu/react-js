@@ -3,7 +3,9 @@ import React from "react";
 const Child = (props) => {
   return (
     <div>
-      <button onClick={props.handleClick}>Welcome message</button>
+      <button onClick={() => props.handleClick("child")}>
+        Welcome message
+      </button>
     </div>
   );
 };
