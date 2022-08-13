@@ -9,11 +9,13 @@ class ConditionalRendering extends Component {
     };
   }
   render() {
+    let message;
     if (this.state.isLoggedIn) {
-      return <div>Hello Lilian</div>;
+      message = <div>Welcome Lilian</div>;
     } else {
-      return <div>Hello Guest</div>;
+      message = <div>Welcome guest</div>;
     }
+    return <div>{message}</div>;
   }
 }
 
