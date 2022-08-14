@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ConditionalRendering extends Component {
+export class ConditionalRendering extends Component {
   constructor(props) {
     super(props);
 
@@ -9,7 +9,13 @@ class ConditionalRendering extends Component {
     };
   }
   render() {
-    return this.state.isLoggedIn && <div>Hi Lilian</div>;
+    let message;
+    if (this.state.isLoggedIn) {
+      message = <h2>Hi Lilian</h2>;
+    } else {
+      message = <h2>Hi Guest</h2>;
+    }
+    return <div>{message}</div>;
   }
 }
 
