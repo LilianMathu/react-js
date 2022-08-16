@@ -1,10 +1,10 @@
 import "./App.css";
-import ListRendering from "./Lessons/ListRendering";
+import ListsandKeys from "./Lessons/ListsandKeys";
 
 function App() {
   return (
     <div className="App">
-      <ListRendering />
+      <ListsandKeys />
     </div>
   );
 }
