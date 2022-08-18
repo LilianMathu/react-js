@@ -1,10 +1,10 @@
 import "./App.css";
-import StyleSheets from "./Lessons/StyleSheets";
+import CssModule from "./Lessons/CssModule";
 
 function App() {
   return (
     <div className="App">
-      <StyleSheets test={true} />
+      <CssModule />
     </div>
   );
 }
