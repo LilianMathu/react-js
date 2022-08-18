@@ -1,10 +1,10 @@
 import "./App.css";
-import ListsandKeys from "./Lessons/ListsandKeys";
+import StyleSheets from "./Lessons/StyleSheets";
 
 function App() {
   return (
     <div className="App">
-      <ListsandKeys />
+      <StyleSheets />
     </div>
   );
 }
