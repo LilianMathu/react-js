@@ -3,3 +3,9 @@
   font-size: x-large;
   text-transform: uppercase;
 }
+
+.test1 {
+  color: green;
+  font-size: x-large;
+  text-transform: capitalize;
+}

@@ -4,7 +4,7 @@ import StyleSheets from "./Lessons/StyleSheets";
 function App() {
   return (
     <div className="App">
-      <StyleSheets />
+      <StyleSheets test={true} />
     </div>
   );
 }
