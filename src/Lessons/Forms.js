@@ -5,12 +5,19 @@ class Forms extends Component {
     super(props);
     this.state = {
       name: "",
+      comments: "",
     };
   }
 
-  handleChange = (event) => {
+  handleNameChange = (event) => {
     this.setState({
       name: event.target.value,
+    });
+  };
+
+  handleCommentChange = (event) => {
+    this.setState({
+      comments: event.target.value,
     });
   };
 
@@ -22,8 +29,15 @@ class Forms extends Component {
           <input
             type="text"
             value={this.state.name}
-            onChange={this.handleChange}
+            onChange={this.handleNameChange}
           />
+        </div>
+        <div>
+          <label>Comments</label>
+          <textarea
+            value={this.state.comments}
+            onChange={this.handleCommentChange}
+          ></textarea>
         </div>
       </form>
     );
